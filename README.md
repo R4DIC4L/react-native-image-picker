@@ -5,7 +5,7 @@ This is a fork of [react-native-image-picker](https://github.com/react-native-im
 ![MIT](https://img.shields.io/dub/l/vibe-d.svg)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-yellow.svg)
 
-A React Native module that allows you to use native UI to select a photo/video from the device library or directly from the camera, like so:
+A React Native module that allows you to use native UI to select a photo/video from the device library or directly from the camera.
 
 # Version 2.x.x will no longer be maintained.
 
