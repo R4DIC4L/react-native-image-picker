@@ -9,11 +9,7 @@ A React Native module that allows you to use native UI to select a photo/video f
 
 # Version 2.x.x will no longer be maintained.
 
-`react-native-image-picker` is working on simplifying the codebase and API. Feel free read through the discussions here: [GH-1358](https://github.com/react-native-image-picker/react-native-image-picker/issues/1358).  
-
-| iOS                                                                                                                   | Android                                                                                                                       |
-| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| <img title="iOS" src="https://github.com/react-community/react-native-image-picker/blob/master/images/ios-image.png"> | <img title="Android" src="https://github.com/react-community/react-native-image-picker/blob/master/images/android-image.png"> |
+`react-native-image-picker` is working on simplifying the codebase and API. Feel free read through the discussions here: [GH-1358](https://github.com/react-native-image-picker/react-native-image-picker/issues/1358).
 
 #### _Before you open an issue_
 
@@ -110,7 +106,7 @@ ImagePicker.launchImageLibrary(options, (response) => {
 
 #### Notes
 
-On iOS, don't assume that the absolute uri returned will persist. See [#107](/../../issues/107)
+On iOS, don't assume that the absolute uri returned will persist. See [react-native-image-picker #107](https://github.com/react-native-image-picker/react-native-image-picker/issues/107)
 
 For more, read the [API Reference](docs/Reference.md).
 
