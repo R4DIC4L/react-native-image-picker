@@ -1,13 +1,13 @@
 # Install
 
 ```
-yarn add react-native-image-picker
+npm install @r4dic4l/react-native-image-picker
 
 # RN >= 0.60
 cd ios && pod install
 
 # RN < 0.60
-react-native link react-native-image-picker
+react-native link @r4dic4l/react-native-image-picker
 ```
 
 ⚠️ If you need to support React Native < 0.40, you must install this package: `react-native-image-picker@0.24`.
@@ -108,7 +108,7 @@ Customization settings of dialog `android/app/res/values/themes.xml` (`android/a
 
    ```gradle
    include ':react-native-image-picker'
-   project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+   project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/@r4dic4l/react-native-image-picker/android')
    ```
 
 2. Update the android build tools version to `2.2.+` in `android/build.gradle`:
